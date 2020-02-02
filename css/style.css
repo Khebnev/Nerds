@@ -144,6 +144,7 @@ p{
     background-color: #fb565a;
     margin-left: 50px;
     display: block;
+    border-radius: 2px;
 }
 /*
 .button-slider{
@@ -212,6 +213,7 @@ a.button-slider{
 }
 .button-red{
     background-color: #fb565a;
+    border-radius: 2px;
 }
 .button-red-link{
     padding-left: 40px;
@@ -239,6 +241,7 @@ a.button-slider{
 }
 .button-green{
     background-color: #00ca74;
+    border-radius: 2px;
 }
 .button-green-link{
     padding-left: 40px;
@@ -267,6 +270,7 @@ a.button-slider{
 
 .button-yellow{
     background-color: #efc84a;
+    border-radius: 2px;
 }
 .button-yellow-link{
     padding-left: 40px;
@@ -456,6 +460,7 @@ div.line-after{
     background-color: #fb565a;
     display: block;
     margin-left: 50px;
+    border-radius: 2px;
 }
 .section-map__button{
     text-decoration: none;
@@ -467,4 +472,90 @@ div.line-after{
     margin-left: 44px;
     margin-top: 17px;
     display: inline-block;
+}
+
+/*Блок футера*/
+
+.footer-wrapper{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #fff;
+    margin-bottom: 70px;
+    display: block;
+}
+.social-media{
+    width: 260px;
+    float: left;
+    padding-top: 69px;
+    padding-left: 20px;
+}
+
+.social-media__list{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+    float: left;
+}
+.social-media__list-item{
+    display: inline-block;
+}
+.vk__images-block{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    position: relative;
+}
+.vk__images-block img{
+    padding-left: 25px;
+    padding-top: 32px;
+}
+
+.fb__images-block{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    position: relative;
+}
+.fb__images-block img{
+    padding-left: 32px;
+    padding-top: 25px;
+}
+
+.instagram__images-block{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    background-color: #e1e1e1;
+    position: relative;
+}
+.instagram__images-block img{
+    padding-left: 27px;
+    padding-top: 25px;
+}
+
+
+.discount{
+    width: 560px;
+    float: right;
+    padding-top: 78px;
+    padding-right: 236px;
+}
+.discount-wrapper{
+    float: right;
+}
+.discount__title-wrapper{
+    padding-bottom: 12px;
+}
+.discount__title{
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+.discount__text{
+    color: #444444;
+    line-height: 22px;
+    font-size: 16px;
 }
