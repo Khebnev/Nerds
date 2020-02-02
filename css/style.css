@@ -173,3 +173,123 @@ a.button-slider{
     width: 701px;
     padding-right: 51px;
 }
+
+/*Блок приемущества*/
+
+.advantages{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.advantages-list{
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+.advantages-list-item{
+    display: inline-block;
+    width: 300px;
+}
+.web-sites{
+    padding-left: 20px;
+}
+.web-sites__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+
+.advantages-list-item__wrapper-button{
+    width: 160px;
+    height: 50px;
+    margin-top: 38px;
+/*    background-color: #fb565a;*/
+    display: block;
+}
+.button-red{
+    background-color: #fb565a;
+}
+.button-red-link{
+    padding-left: 40px;
+    padding-top: 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.applications{
+    padding-left: 100px;
+}
+.applications__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+.button-green{
+    background-color: #00ca74;
+}
+.button-green-link{
+    padding-left: 40px;
+    padding-top: 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.presentations{
+    padding-left: 100px;
+}
+.presentation__title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-top: 26px;
+    padding-bottom: 28px;
+}
+
+.button-yellow{
+    background-color: #efc84a;
+}
+.button-yellow-link{
+    padding-left: 40px;
+    padding-top: 18px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*Линия после приемущиств, вместо бордера*/
+div.line-after{
+    height: 2px;
+    background-color: #eee;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+/*Блок студии*/
+
+.studio-block{
+    padding-top: 80px;
+}
