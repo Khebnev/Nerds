@@ -291,5 +291,74 @@ div.line-after{
 /*Блок студии*/
 
 .studio-block{
-    padding-top: 80px;
+    padding-top: 40px;
+}
+.studio-block__about-us{
+    margin-bottom: 48px;
+}
+.studio-block__about{
+    float: left;
+    width: 660px;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.studio-block__about-us b{
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 45px;
+
+}
+.studio-block__about-text{
+    margin-top: 38px;
+}
+.about-orders{
+    margin-bottom: 36px;
+}
+
+.about-orders__list{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+.about-orders__list-items{
+/*    background-image: url(../img/line-red.png) 0px no-repeat;*/
+/*    list-style-image: url(../img/line-red.png);*/
+    padding-left: 20px;
+/*    margin-top: 40xp;*/
+    line-height: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.studio-block__accuracy{
+    float: right;
+    width: 360px;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+.accuracy__images-block{
+    margin-bottom: 45px;
+}
+
+.accuracy__text-block b{
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.accuracy__text-block-text-wrapper{
+    margin-top: 48px;
+}
+
+.accuracy-text__block{
+    width: 110px;
+    display: inline-block;
+}
+.percents{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+}
+.accuracy-text__block-desc{
+    margin-top: 26px;
 }
