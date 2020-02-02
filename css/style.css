@@ -293,6 +293,9 @@ div.line-after{
 .studio-block{
     padding-top: 40px;
 }
+.studio-block__top-wrapper{
+    margin-bottom: 78px;
+}
 .studio-block__about-us{
     margin-bottom: 48px;
 }
@@ -361,4 +364,107 @@ div.line-after{
 }
 .accuracy-text__block-desc{
     margin-top: 26px;
+}
+
+/*Блок студии со спонсорами*/
+
+.studio-block__sponsors{
+    margin-top: 46px;
+    margin-bottom: 42px;
+}
+
+.sponsors__wrapper{
+    padding-left: 51px;
+/*
+    width: 1086px;
+    height: 92px;
+*/
+}
+.sponsors__list{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    list-style: none;
+}
+.sponsors__list-item{
+    display: inline-block;
+}
+.sponsors__htmlacademy{
+    padding-right: 49px;
+}
+.sponsors__barbershop{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.sponsors__pink{
+    padding-left: 57px;
+    padding-right: 56px;
+}
+.sponsors__mishka{
+    padding-left: 64px;
+}
+
+/*Секция карты*/
+
+.section-map__container--inner{
+    background-color: bisque;
+    background-image: url(../img/Map.png);
+    width: 1200px;
+    height: 416px;
+/*    position: relative;*/
+    margin: 0 auto;
+}
+.section-map__container{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.section-map__address-block{
+    width: 319px;
+    height: 308px;
+    background-color: #fff;
+    position: absolute;
+    top: 54px;
+    left: 2%;
+}
+.section-map__text-wrapper{
+    padding-top: 54px;
+    padding-left: 50px;
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 33px;
+}
+.section-map__address-wrapper{
+    padding-left: 50px;
+}
+.section-map__address{
+/*    padding-left: 50px;*/
+        color: #666666;
+}
+.section-map__tel-wrapper{
+    padding-left: 50px;
+    padding-top: 23px;
+    padding-bottom: 37px;
+}
+.section-map__tel{
+    color: #666666;
+}
+.section-map__button-wrapper{
+    width: 219px;
+    height: 50px;
+    background-color: #fb565a;
+    display: block;
+    margin-left: 50px;
+}
+.section-map__button{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-left: 44px;
+    margin-top: 17px;
+    display: inline-block;
 }

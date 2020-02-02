@@ -54,9 +54,10 @@
             </section>
         </div>
     </div>
-    <div class="main-wrapper">
+<!--    <div class="main-wrapper">-->
         <main class="container">
            <h1 class="visually-hidden">Nerds - разработка веб-сайтов, приложений и презентаций</h1>
+           <div class="main-wrapper">
             <section class="advantages">
                 <h2 class="visually-hidden">Приемущества</h2>
 
@@ -144,15 +145,15 @@
                             <div class="accuracy__text-block-text-wrapper">
                                 <div class="accuracy-text__block">
                                     <span class="percents">146%</span>
-                                    <p>Уровень самоотдачи</p>
+                                    <p class="accuracy-text__block-desc">Уровень самоотдачи</p>
                                 </div>
                                 <div class="accuracy-text__block">
                                     <span class="percents">100%</span>
-                                    <p>Соблюдение сроков</p>
+                                    <p class="accuracy-text__block-desc">Соблюдение сроков</p>
                                 </div>
                                 <div class="accuracy-text__block">
                                     <span class="percents">50%</span>
-                                    <p>Минимальная предоплата</p>
+                                    <p class="accuracy-text__block-desc">Минимальная предоплата</p>
                                 </div>
                             </div>
 
@@ -169,26 +170,27 @@
                         </div>
                     </section>
                 </div>
+            <div class="line-after"></div>
                 <section class="studio-block__sponsors">
                    <h2 class="visually-hidden">Наши спонсоры</h2>
                     <div class="sponsors__wrapper">
                         <ul class="sponsors__list">
-                            <li class="sponsors__list-item">
+                            <li class="sponsors__list-item sponsors__htmlacademy">
                                 <div class="sponsors__images-block">
                                     <img src="img/logo-1.png" width="199" height="68" alt="Изображение логотипа сайта HTML Academy">
                                 </div>
                             </li>
-                            <li class="sponsors__list-item">
+                            <li class="sponsors__list-item sponsors__barbershop">
                                 <div class="sponsors__images-block">
                                     <img src="img/logo-2.png" width="209" height="90" alt="Изображение логотипа сайта Barbershop Borodinski">
                                 </div>
                             </li>
-                            <li class="sponsors__list-item">
+                            <li class="sponsors__list-item sponsors__pink">
                                 <div class="sponsors__images-block">
                                     <img src="img/logo-3.png" width="185" height="52" alt="Изображение логотипа сайта Pink">
                                 </div>
                             </li>
-                            <li class="sponsors__list-item">
+                            <li class="sponsors__list-item sponsors__mishka">
                                 <div class="sponsors__images-block">
                                     <img src="img/logo-4.png" width="173" height="84" alt="Изображение логотипа сайта Mishka">
                                 </div>
@@ -197,22 +199,33 @@
                     </div>
                 </section>
             </div>
-            <section class="section-map">
+            <div class="line-after"></div>
+            </div>
+            <section class="section-map section-map__container--inner">
                <h2 class="visually-hidden">Расположение студии на карте</h2>
                 <div class="section-map__container">
                     <!-- Место для карты фоном -->
                     <address class="section-map__address-block">
-                        <h3 class="section-map__title">NЁRDS DESIGN STUDIO</h3>
-                        <p class="section-map__address">
-                            191186, <span class="section-map__address--city">Санкт-Петербург</span>,<br>
-                            ул. Б.&nbsp;Конюшенная, д.&nbsp;19/8
-                        </p>
-                        <p class="section-map__tel">тел. +7 (812) 275-75-75</p>
+                        <div class="section-map__text-wrapper">
+                            <b class="section-map__title">NЁRDS DESIGN STUDIO</b>
+                        </div>
+                        <div class="section-map__address-wrapper">
+                            <p class="section-map__address">
+                                191186, <span class="section-map__address--city">Санкт-Петербург</span>,<br>
+                                ул. Б.&nbsp;Конюшенная, д.&nbsp;19/8
+                            </p>
+                        </div>
+                        <div class="section-map__tel-wrapper">
+                            <p class="section-map__tel">тел. +7 (812) 275-75-75</p>
+                        </div>
+                        <div class="section-map__button-wrapper">
+                            <a href="#" class="section-map__button">Напишите нам</a>
+                        </div>
                     </address>
                 </div>
             </section>
         </main>
-    </div>
+<!--    </div>-->
     <footer class="main-footer">
         <section class="social-media">
            <h3 class="visually-hidden">Иконки социальных сетей</h3>
