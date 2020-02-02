@@ -124,6 +124,7 @@ p{
 .slider-text__container{
         padding-top: 28px;
         padding-bottom: 42px;
+
 }
 .slider-1_text p{
 /*    padding-top: 28px;*/
@@ -132,17 +133,34 @@ p{
     line-height: 55px;
 
 }
+/*
 .button-slider__container{
-/*    padding-top: 42px;*/
+    padding-top: 42px;
 }
+*/
 .button-slider__container{
     width: 240px;
     height: 50px;
     background-color: #fb565a;
+    margin-left: 50px;
+    display: block;
 }
-.button{
+/*
+.button-slider{
     font-size: 16px;
     line-height: 18px;
+}
+*/
+a.button-slider{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 65px;
+/*    margin-top: 16px;*/
+    padding-top: 16px;
+/*    padding-top: 30px;*/
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
 }
 
 .slider-block__right{
