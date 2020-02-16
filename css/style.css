@@ -782,12 +782,62 @@ div.line-after{
 }
 .section-map__address-block{
     width: 319px;
-    height: 308px;
+/*    height: 308px;*/
     background-color: #fff;
     position: absolute;
     top: 54px;
     left: 2%;
 }
+
+.section-map__wrapper{
+/*    position: relative;*/
+    margin-left: 50px;
+    margin-top: 54px;
+    font-style: normal;
+}
+.section-map__wrapper b{
+    margin: 0;
+    padding: 0;
+    margin-top: 26px;
+/*
+    padding-top: 54px;
+    padding-left: 50px;
+*/
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+/*    padding-bottom: 33px;*/
+}
+.section-map__wrapper p{
+    margin: 0;
+    padding: 0;
+    margin-top: 24px;
+    color: #666666;
+    line-height: 18px;
+    font-size: 16px;
+}
+.section-map__wrapper a{
+    width: 220px;
+    margin: 0;
+    padding: 0;
+    margin-top: 35px;
+    margin-bottom: 46px;
+    padding: 16px 0;
+    display: block;
+    text-align: center;
+
+    border-radius: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #fb565a;
+
+}
+
+/*
 .section-map__text-wrapper{
     padding-top: 54px;
     padding-left: 50px;
@@ -796,41 +846,53 @@ div.line-after{
     font-size: 18px;
     padding-bottom: 33px;
 }
+*/
+/*
 .section-map__address-wrapper{
     padding-left: 50px;
 }
+*/
+/*
 .section-map__address{
-/*    padding-left: 50px;*/
+    padding-left: 50px;
         color: #666666;
 }
+*/
+/*
 .section-map__tel-wrapper{
     padding-left: 50px;
     padding-top: 23px;
     padding-bottom: 37px;
 }
+*/
+/*
 .section-map__tel{
     color: #666666;
 }
+*/
+/*
 .section-map__button-wrapper{
     width: 219px;
     height: 50px;
     background-color: #fb565a;
     display: block;
     margin-left: 50px;
-    border-radius: 2px;
+
 }
-.section-map__button{
-    text-decoration: none;
-    color: #fff;
+*/
+/*.section-map__button{*/
+/*    text-decoration: none;*/
+/*
     text-transform: uppercase;
     line-height: 18px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    margin-left: 44px;
-    margin-top: 17px;
-    display: inline-block;
-    font-style: normal;
-}
+*/
+/*    margin-left: 44px;*/
+/*    margin-top: 17px;*/
+/*    display: inline-block;*/
+/*    font-style: normal;*/
+/*}*/
 
 /*Блок футера*/
 
