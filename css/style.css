@@ -902,11 +902,14 @@ div.line-after{
 
 /*Блок футера*/
 
-
-.footer-wrapper{
+.main-footer {
     margin: 0 auto;
-    padding-left: 20px;
     width: 1200px;
+}
+.footer-wrapper{
+
+    margin: 0 20px;
+
     background-color: #fff;
     margin-bottom: 70px;
     margin-top: 70px;
@@ -926,7 +929,7 @@ div.line-after{
 /*    float: left;*/
 /*    padding-top: 69px;*/
 /*    padding-left: 20px;*/
-    margin-right: 100px;
+    margin-right: 140px;
 }
 
 .social-flex {
