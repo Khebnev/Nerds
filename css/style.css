@@ -778,11 +778,11 @@ div.line-after{
     height: 416px;
 /*    position: relative;*/
     margin: 0 auto;
+    margin-top: 80px;
 }
 .section-map__container{
-    width: 1200px;
     position: relative;
-    margin: 0 auto;
+    display: block;
 }
 .section-map__address-block{
     width: 319px;
@@ -790,7 +790,9 @@ div.line-after{
     background-color: #fff;
     position: absolute;
     top: 54px;
-    left: 2%;
+    left: 20px;
+/*    margin-left: 20px;*/
+/*    left: 2%;*/
 }
 
 .section-map__wrapper{
