@@ -772,17 +772,21 @@ div.line-after{
 /*Секция карты*/
 
 .section-map__container--inner{
-    background-color: bisque;
+/*    background-color: bisque;*/
     background-image: url(../img/Map.png);
-    width: 1200px;
+    background-position: center;
+    background-repeat: no-repeat;
+
     height: 416px;
 /*    position: relative;*/
-    margin: 0 auto;
+
     margin-top: 80px;
 }
 .section-map__container{
     position: relative;
     display: block;
+    width: 1200px;
+        margin: 0 auto;
 }
 .section-map__address-block{
     width: 319px;
@@ -1061,4 +1065,101 @@ div.line-after{
     color: #444444;
     line-height: 22px;
     font-size: 16px;
+}
+
+/*Модальные окна*/
+
+.modal{
+    position: fixed;
+
+    display: none;
+
+    color: #000;
+
+    background-color: #f8f3f0;
+}
+
+.write-us {
+    width: 960px;
+    margin: 0 auto;
+    display: none;
+}
+
+.write-us__title {
+    margin: 0;
+    padding: 0;
+    width: 760px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 35px;
+}
+.write-us__form{
+
+    min-height: 590px;
+    background-color: #fff;
+}
+
+.write-us__main-wrapper {
+    width: 760px;
+    margin: 0 auto;
+}
+
+.write-us__name-email--wrapper:nth-child(1) {
+/*    margin-right: 40px;*/
+}
+
+.write-us__name-email--wrapper {
+    display: flex;
+    width: 760px;
+    margin-bottom: 32px;
+/*    justify-content: space-between;*/
+}
+
+.write-us__name-email--wrapper b {
+/*        width: 360px;*/
+}
+
+.write-us__left {
+    display: block;
+    margin-right: 40px;
+
+}
+.write-us__left label{
+    display: block;
+    padding-bottom: 12px;
+}
+.write-us__name-email--wrapper input[type=text]{
+    width: 360px;
+    padding: 12px 0;
+/*    box-sizing: border-box;*/
+/*    padding-left: 55px;*/
+/*    padding: 12px 0 12px 14px;*/
+    background-color: rgba(39, 0, 255, 0.74);
+}
+.write-us__name-email--wrapper input[type=email]{
+    width: 360px;
+/*    padding: 12px 0 12px 14px;*/
+    padding: 12px 0;
+    background-color: rgba(39, 0, 255, 0.74);
+}
+
+.write-us__letter input[type=textaria] {
+    width: 760px;
+    min-height: 112px;
+}
+
+.write-us__right {
+    display: block;
+}
+.write-us__right label{
+    display: block;
+    padding-bottom: 12px;
+}
+
+.write-us__letter{
+    display: block;
+}
+.write-us__letter + label {
+    display: block;
+    margin-bottom: 10px;
 }

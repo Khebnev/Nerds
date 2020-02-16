@@ -262,11 +262,28 @@
             </section>
         </div>
     </footer>
-<!--
-    <form action="https://echo.htmlacademy.ru" class="write-us">
-        Здесь форма "напишите нам"
-    </form>
--->
+    <section class="modal write-us">
+       <h2 class="write-us__title">Напишите нам</h2>
+        <form action="https://echo.htmlacademy.ru" class="write-us__form">
+            <div class="write-us__main-wrapper">
+                <div class="write-us__name-email--wrapper">
+                    <b class="write-us__left">
+                        <label class="wr" for="write-us__name">Ваше имя:</label>
+                        <input id="write-us__name" type="text" placeholder="Имя Фамилия">
+                    </b>
+                    <b class="write-us__right">
+                        <label for="write-us__email" >Ваш email:</label>
+                        <input id="write-us__email" type="email" placeholder="email@example.com">
+                    </b>
+                </div>
+                <b class="write-us__letter">
+                    <label for="write-us__letter">Текст письма:</label>
+                    <input id="write-us__letter" type="textaria" placeholder="В свободной форме">
+                </b>
+            </div>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
+    </section>
 
 </body>
 </html>
