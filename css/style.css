@@ -135,6 +135,20 @@ footer{}
 .site-navigation-current{
     position: relative;
 }
+.site-navigation-current::after{
+    content: "";
+
+    width: 60px;
+    height: 2px;
+
+    background: red;
+    left: 20px;
+    right: 5px;
+    bottom: 0;
+}
+.site-navigation-current a:hover{
+    color: #000;
+}
 /*
 .site-navigation-current:hover{
     position: relative;
@@ -143,9 +157,12 @@ footer{}
 }
 */
 
-.site-navigation-current a[href] {
-/*    position: relative;*/
+/*
+.site-navigation-current a[href]:focus {
+    position: relative;
+    color: #000;
 }
+*/
 
 .site-navigation-current::after {
     content: "";
