@@ -1575,3 +1575,51 @@ div.line-after{
     width: 760px;
     padding: 0 20px;
 }
+
+.catalog-flex{
+    display: flex;
+    flex-wrap: wrap;
+/*    width: 100%;*/
+}
+
+.sort-container {
+    display: flex;
+/*    margin: 0 auto;*/
+}
+.sort-word {
+/*    display: block;*/
+    width: 200px;
+}
+
+.sort-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 360px;
+
+}
+.sort-menu-item {
+
+}
+
+.sort-menu-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.catalog-list-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalog-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.catalog-item {
+    width: 360px;
+}
+
