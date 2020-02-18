@@ -1250,6 +1250,32 @@ div.line-after{
 
     background-color: #fecccd;
 }
+.modal-close:hover::before,
+.modal-close:hover::after {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    right: 0;
+
+    width: 21px;
+    height: 3px;
+
+    background-color: #fb565a;
+}
+.modal-close:active::before,
+.modal-close:active::after {
+    content: "";
+
+    position: absolute;
+    top: 9px;
+    right: 0;
+
+    width: 21px;
+    height: 3px;
+
+    background-color: #ffeeee;
+}
 
 .modal-close::before {
     transform: rotate(45deg);
