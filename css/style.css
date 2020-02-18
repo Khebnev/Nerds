@@ -1436,3 +1436,60 @@ div.line-after{
     background-color: #eee;
 }
 
+
+.filter-grid{
+    list-style: none;
+}
+.filter-option {
+    padding-bottom: 15px;
+}
+.grid-radio {
+    position: relative;
+    padding-left: 30px;
+
+    cursor: pointer;
+}
+
+.grid-radio:hover,
+.grid-radio:active {
+    color: #4d4d4d;
+}
+
+.grid-radio input[type="radio"] + .radio-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/radio-off.svg);
+/*    border: 2px solid #000;*/
+}
+
+.grid-radio input[type="radio"]:focus + .radio-indicator {
+    border-color: #4d4d4d    ;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.grid-radio input[type="radio"]:hover + .radio-indicator {
+    background-image: url(../img/radio-on-hover.svg);
+}
+
+.grid-radio input[type="radio"]:checked + .radio-indicator {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url(../img/radio-on-hover.svg);
+/*
+
+    width: 15px;
+    height: 2px;
+
+    background-color: #000;
+*/
+}
+
