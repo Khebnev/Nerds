@@ -1260,6 +1260,7 @@ div.line-after{
 
 /*Стили к странице каталога*/
 
+/*Шапка*/
 .catalog-header {
     margin: 0;
     padding: 0;
@@ -1279,6 +1280,103 @@ div.line-after{
     text-align: center;
     padding-top: 75px;
     padding-bottom: 102px;
+}
 
+/*Каталог*/
+
+/*Фильтр товаров*/
+.catalog-main-wrapper {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.filters {
+    width: 260px;
+}
+
+
+.filter fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.filter legend {
+    display: block;
+
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.filter .cost  {
+    padding-bottom: 52px;
+}
+.price-range-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 60px;
+}
+
+
+.price-range-item {
+    width: 260px;
+    min-height: 80px;
+
+    border-radius: 2px;
+
+    background-color: #eee;
+
+    margin-bottom: 14px;
+}
+
+.range-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range-flex-container input[type=range] {
+/*    align-items: center;*/
+    width: 222px;;
+}
+
+.flex-input-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.price-min-max {
+    width: 116px;
+}
+
+.price-from-min label {
+/*    display: block;*/
+    margin-right: 10px;
+}
+.price-from-min input[type=text] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 80px;
+    padding: 11px 0;
+    text-align: center;
+    background-color: #eee;
+}
+
+.price-to-max label {
+    margin-right: 12px;
+}
+
+.price-to-max input[type=text] {
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: 80px;
+    padding: 11px 0;
+    text-align: center;
+    background-color: #eee;
 }
 

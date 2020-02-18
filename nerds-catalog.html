@@ -14,7 +14,7 @@
                     <img src="img/nerds-logo.svg" width="160" height="65" alt="Nerds logo">
                 </a>
                 <ul class="site-navigation flex-container">
-                    <li class="site-navigation-item navigation-studio"><a>Студия</a></li>
+                    <li class="site-navigation-item navigation-studio"><a href="index.html">Студия</a></li>
                     <li class="site-navigation-item navigation-clients"><a href="#">Клиенты</a></li>
                     <li class="site-navigation-item navigation-shop site-navigation-current"><a href="nerds-catalog.html">Магазин</a></li>
                     <li class="site-navigation-item navigation-contacts"><a href="#">Контакты</a></li>
@@ -23,78 +23,81 @@
                     <a href="#" class="cart">Корзина</a>
                 </p>
             </nav>
-        </div>
+
 
 <!--    <div class="main-wrapper">-->
         <h1 class="main-title">Магазин готовых шаблонов</h1>
 <!--    </div>-->
+        </div>
     </header>
 
     <main class="container">
-
-        <section class="filters">
-           <h2 class="visually-hidden">Фильтр шаблонов</h2>
-           <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-               <fieldset>
-                   <legends>Стоимость</legends>
-                    <ul class="price-range-list">
-                        <li>
-                            <input type="range" min="1" max="15000">
-                        </li>
-                        <li>
-                            <label for="">От</label>
-                            <input type="text">
-                        </li>
-                        <li>
-                            <label for="">До</label>
-                            <input type="text" placeholder="0">
-                        </li>
-                    </ul>
-               </fieldset>
-               <fieldset>
-                   <legend>Сетка</legend>
-                   <ul class="filter-grid">
-                       <li class="filter-option">
-                           <input class="visually-hidden filter-input filter-input-radio" type="radio">
-                           <label for="">Адаптивная</label>
-                       </li>
-                       <li class="filter-option">
-                           <input class="visually-hidden filter-input filter-input-radio" type="radio">
-                           <label for="">Фиксированная</label>
-                       </li>
-                       <li class="filter-option">
-                           <input class="visually-hidden filter-input filter-input-radio" type="radio">
-                           <label for="">Резиновая</label>
-                       </li>
-                   </ul>
-               </fieldset>
-               <fieldset>
-                   <legend>Особенности</legend>
-                    <ul class="filter-features">
-                        <li class="filter-option">
-                           <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
-                            <label for="">Слайдер</label>
-                        </li>
-                        <li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
-                            <label for="">Блок приемуществ</label>
-                        </li>
-                        <li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
-                        <label for="">Новости</label>
-                        </li>
-                            <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
-                            <label for="">Галерея</label>
-                        </li>
-                        <li class="filter-option">
-                            <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
-                            <label for="">Корзина</label>
-                        </li>
-                    </ul>
-               </fieldset>
-               <button class="filter-button button" type="submit">Показать</button>
-            </form>
-        </section>
+        <div class="catalog-main-wrapper">
+            <section class="filters">
+               <h2 class="visually-hidden">Фильтр шаблонов</h2>
+               <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+                   <fieldset>
+                       <legend class="cost">Стоимость:</legend>
+                        <ul class="price-range-list">
+                            <li class="price-range-item range-flex-container">
+                                <input type="range" min="0" max="15000">
+                            </li>
+                            <div class="flex-input-container">
+                                <li class="price-from-min price-min-max">
+                                    <label for="from-min">От</label>
+                                    <input class="filter-input filter-input-checkbox"  id="from-min" type="text" placeholder="0">
+                                </li>
+                                <li class="price-to-max price-min-max">
+                                    <label for="to-max">До</label>
+                                    <input class="filter-input filter-input-checkbox"  id="to-max" type="text" placeholder="15000">
+                                </li>
+                            </div>
+                        </ul>
+                   </fieldset>
+                   <fieldset>
+                       <legend>Сетка</legend>
+                       <ul class="filter-grid">
+                           <li class="filter-option">
+                               <input class="visually-hidden filter-input filter-input-radio" type="radio">
+                               <label for="">Адаптивная</label>
+                           </li>
+                           <li class="filter-option">
+                               <input class="visually-hidden filter-input filter-input-radio" type="radio">
+                               <label for="">Фиксированная</label>
+                           </li>
+                           <li class="filter-option">
+                               <input class="visually-hidden filter-input filter-input-radio" type="radio">
+                               <label for="">Резиновая</label>
+                           </li>
+                       </ul>
+                   </fieldset>
+                   <fieldset>
+                       <legend>Особенности</legend>
+                        <ul class="filter-features">
+                            <li class="filter-option">
+                               <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
+                                <label for="">Слайдер</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
+                                <label for="">Блок приемуществ</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
+                            <label for="">Новости</label>
+                            </li>
+                                <li class="filter-option"><input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
+                                <label for="">Галерея</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-radio" type="radio" type="checkbox">
+                                <label for="">Корзина</label>
+                            </li>
+                        </ul>
+                   </fieldset>
+                   <button class="filter-button button" type="submit">Показать</button>
+                </form>
+            </section>
 
 
         <section class="catalog">
@@ -153,7 +156,7 @@
                 <li class="pagination-item">4</li>
             </ul>
         </section>
-
+        </div>
 
 
         <section class="section-map section-map__container--inner">
