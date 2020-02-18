@@ -1317,8 +1317,14 @@ div.line-after{
     padding: 0 20px;
 }
 
+.catalog-flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .filters {
     width: 260px;
+    min-height: 2102px;
 }
 
 
@@ -1439,6 +1445,10 @@ div.line-after{
 
 .filter-grid{
     list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    margin-bottom: 50px;
 }
 .filter-option {
     padding-bottom: 15px;
@@ -1484,12 +1494,84 @@ div.line-after{
     left: 0;
 
     background-image: url(../img/radio-on-hover.svg);
-/*
-
-    width: 15px;
-    height: 2px;
-
-    background-color: #000;
-*/
+    opacity: 0.1;
 }
 
+.filter-features {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 18px;
+    margin-bottom: 48px;
+}
+
+.features-checkbox {
+    position: relative;
+    padding-left: 30px;
+
+    cursor: pointer;
+}
+
+.features-checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24px;
+    height: 23px;
+    background-image: url(../img/checkbox-off-normal.svg);
+}
+
+.features-checkbox  input[type="checkbox"]:focus + .checkbox-indicator {
+    border-color: #4d4d4d;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.features-checkbox  input[type="checkbox"]:hover + .checkbox-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 24px;
+    height: 23px;
+    background-image: url(../img/checkbox-on-hover.svg);
+}
+
+.features-checkbox:checked {
+    color: #ededed;
+}
+
+.features-checkbox  input[type="checkbox"]:checked + .checkbox-indicator {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url(../img/checkbox-on-checked.svg);
+    opacity: 0.1;
+}
+
+.filter-button {
+    width: 260px;
+    padding: 16px 0;
+    border: none;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color: #eee;
+}
+
+
+/*Раздел товаров*/
+
+.catalog {
+    width: 760px;
+    padding: 0 20px;
+}
