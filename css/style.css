@@ -184,6 +184,7 @@ footer{}
 .navigation-studio{
 
 }
+
 .navigation-clients{
 /*    padding-left: 47px;*/
     margin-right: 20px;
@@ -1257,4 +1258,27 @@ div.line-after{
     transform: rotate(-45deg);
 }
 
+/*Стили к странице каталога*/
+
+.catalog-header {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+/*    padding-bottom: 74px;*/
+}
+
+.main-title {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 102px;
+
+}
 
