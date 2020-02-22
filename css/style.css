@@ -1818,6 +1818,7 @@ div.line-after{
     display: none;
     text-align: center;
     background-color: #eee;
+    box-shadow: 0 1px 3px rgba(66, 62, 87, 0.59);
 }
 .catalog-item__block1:hover .catalog-item__block2 {
     display: block;
