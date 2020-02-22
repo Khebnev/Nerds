@@ -1020,6 +1020,7 @@ div.line-after{
 
 .write-us__letter textarea {
     display: block;
+    margin-top: 10px;
     width: 746px; /* width -padding-left = 760-14 =646*/
     padding-left: 14px;
 }
