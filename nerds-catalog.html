@@ -38,21 +38,21 @@
                <form class="filter" method="get" action="https://echo.htmlacademy.ru">
                    <fieldset>
                        <legend class="cost">Стоимость:</legend>
-                        <ul class="price-range-list">
-                            <li class="price-range-item range-flex-container">
+                        <div class="price-range-list">
+                            <div class="price-range-item range-flex-container">
                                 <input class="range-slider" type="range" min="0" max="15000">
-                            </li>
+                            </div>
                             <div class="flex-input-container">
-                                <li class="price-from-min price-min-max">
+                                <div class="price-from-min price-min-max">
                                     <label for="from-min">От</label>
                                     <input class="filter-input filter-input-checkbox"  id="from-min" type="text" placeholder="0">
-                                </li>
-                                <li class="price-to-max price-min-max">
+                                </div>
+                                <div class="price-to-max price-min-max">
                                     <label for="to-max">До</label>
                                     <input class="filter-input filter-input-checkbox"  id="to-max" type="text" placeholder="15000">
-                                </li>
+                                </div>
                             </div>
-                        </ul>
+                        </div>
                    </fieldset>
                    <fieldset>
                        <legend>Сетка</legend>
@@ -278,7 +278,7 @@
                <h3 class="visually-hidden">Иконки социальных сетей</h3>
                 <ul class="social-media__list social-flex">
                     <li class="social-media__list-item vk">
-                        <a target="_blank" href="https://vk.com" class="link__vk" target="_blank">
+                        <a target="_blank" href="https://vk.com" class="link__vk">
                             <div class="vk__images-block">
                                 <img src="img/vk-icon.svg" width="26" height="15" alt="Вконтакте">
                             </div></a>
@@ -323,8 +323,11 @@
                     </b>
                 </div>
                 <b class="write-us__letter">
-                    <label for="write-us__letter">Текст письма:</label>
-                    <textarea name="write-us__area" id="" cols="30" rows="10" id="write-us__letter" type="textaria" placeholder="В свободной форме"></textarea>
+                    <label for="write-us__letter">
+                        Текст письма:
+                        <textarea name="write-us__area" cols="30" rows="10" id="write-us__letter" placeholder="В свободной форме"></textarea>
+                    </label>
+
                 </b>
                 <button type="submit" class="send">Отправить</button>
             </div>
