@@ -1767,6 +1767,22 @@ div.line-after{
 }
 
 /*
+.catalog-item .catalog-item__block1::before {
+    content: "";
+
+    position: absolute;
+
+    width: 21px;
+    height: 21px;
+    background-color: #fff;
+    border-radius: 50%;
+
+    left: 20px;
+    top: 10px;
+
+}
+*/
+/*
 .catalog-item__block1:hover::after ~ .catalog-item__block2 {
     display: block;
     content: "";
@@ -1789,6 +1805,8 @@ div.line-after{
 .catalog-item__block1:hover {
     background-color: #4d4d4d;
 }
+
+
 
 .catalog-item__block2 {
     position: absolute;
