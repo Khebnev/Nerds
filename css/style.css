@@ -1661,6 +1661,21 @@ div.line-after{
 .sort-menu-item {
 
 }
+.sort-menu-item a {
+    color: #000;
+    opacity: 0.3;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+}
+.sort-menu-item-current a {
+    color: #000;
+    opacity: 1;
+}
 
 .down-up__flex-container {
     display: flex;
@@ -1687,9 +1702,10 @@ div.line-after{
 
 }
 */
-.sort-down {
+.sort-menu-item__down-up-current .sort-down {
     flex-basis: 11px;
     margin: 0 auto;
+    opacity: 1;
 }
 .sort-up {
     flex-basis: 11px;
