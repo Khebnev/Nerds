@@ -1672,6 +1672,17 @@ div.line-after{
     line-height: 18px;
     font-weight: 600;
 }
+
+.sort-menu-item a:hover {
+    color: #666666;
+    opacity: 1;
+}
+
+.sort-menu-item a:active {
+    color: #000;
+    opacity: 1;
+}
+
 .sort-menu-item-current a {
     color: #000;
     opacity: 1;
@@ -1711,6 +1722,17 @@ div.line-after{
     flex-basis: 11px;
     opacity: 0.3;
 }
+
+.sort-up:hover {
+    flex-basis: 11px;
+    opacity: 0.6;
+}
+
+.sort-up:active {
+    flex-basis: 11px;
+    opacity: 1;
+}
+
 
 .sort-menu-flex {
     display: flex;
