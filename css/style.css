@@ -1379,15 +1379,19 @@ div.line-after{
 }
 
 .filter legend {
+    padding: 0;
+    margin: 0;
     display: block;
 
     line-height: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
-
+    text-transform: uppercase;
 }
 .filter .cost  {
+    display: block;
+    padding-top: 60px;
     padding-bottom: 52px;
 }
 .price-range-list {
@@ -1628,23 +1632,50 @@ div.line-after{
 
 .sort-container {
     display: flex;
+    flex-wrap: wrap;
+    flex-basis: 760px;
+    justify-content: space-between;
+    margin-top: 67px;
+/*    margin-bottom: 12px;*/
+/*    min-height: 87px;*/
 /*    margin: 0 auto;*/
 }
 .sort-word {
 /*    display: block;*/
-    width: 200px;
+    flex-basis: 360px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
 }
 
 .sort-menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 360px;
+    flex-basis: 360px;
+    justify-content: space-between;
 
 }
 .sort-menu-item {
 
 }
+
+/*
+.down-up {
+    position: relative;
+}
+.down-up a::after {
+    position: absolute;
+    left: 3px;
+    top: 3px;
+
+    background-image: url(../img/icon-down-dir-normal.svg);
+    background-position: 0 0;
+
+}
+*/
 
 .sort-menu-flex {
     display: flex;
