@@ -1662,11 +1662,22 @@ div.line-after{
 
 }
 
-/*
-.down-up {
-    position: relative;
+.down-up__flex-container {
+    display: flex;
+    width: 60px;
+    height: 19px;
+/*    padding: 1px 0;*/
+/*    background-color: red;*/
+/*    justify-content: space-between;*/
+    justify-content: flex-end;
 }
+/*
 .down-up a::after {
+    content: "";
+
+    width: 21px;
+    height: 11px;
+
     position: absolute;
     left: 3px;
     top: 3px;
@@ -1676,6 +1687,14 @@ div.line-after{
 
 }
 */
+.sort-down {
+    flex-basis: 11px;
+    margin: 0 auto;
+}
+.sort-up {
+    flex-basis: 11px;
+
+}
 
 .sort-menu-flex {
     display: flex;
