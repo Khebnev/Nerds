@@ -1202,7 +1202,30 @@ div.line-after{
     width: 346px; /* width -padding-left = 360-14 =346*/
     padding: 12px 0;
     padding-left: 14px;
-/*    box-sizing: border-box;*/
+    border-color: #d7dcde;
+    box-sizing: border-box;
+/*    padding-left: 55px;*/
+/*    padding: 12px 0 12px 14px;*/
+/*    background-color: rgba(39, 0, 255, 0.74);*/
+}
+.write-us__name-email--wrapper input[type=text]:hover{
+    display: block;
+    width: 346px; /* width -padding-left = 360-14 =346*/
+    padding: 12px 0;
+    padding-left: 14px;
+    border-color: #b4b9bb;
+    box-sizing: border-box;
+/*    padding-left: 55px;*/
+/*    padding: 12px 0 12px 14px;*/
+/*    background-color: rgba(39, 0, 255, 0.74);*/
+}
+.write-us__name-email--wrapper input[type=text]:focus{
+    display: block;
+    width: 346px; /* width -padding-left = 360-14 =346*/
+    padding: 12px 0;
+    padding-left: 14px;
+    border-color: #000;
+    box-sizing: border-box;
 /*    padding-left: 55px;*/
 /*    padding: 12px 0 12px 14px;*/
 /*    background-color: rgba(39, 0, 255, 0.74);*/
@@ -1212,8 +1235,29 @@ div.line-after{
 /*    padding: 12px 0 12px 14px;*/
     padding: 12px 0;
     padding-left: 14px;
+    border-color: #d7dcde;
+    box-sizing: border-box;
 /*    background-color: rgba(39, 0, 255, 0.74);*/
 }
+.write-us__name-email--wrapper input[type=email]:hover{
+    width: 346px; /* width -padding-left = 360-14 =346*/
+/*    padding: 12px 0 12px 14px;*/
+    padding: 12px 0;
+    padding-left: 14px;
+    border-color: #b4b9bb;
+    box-sizing: border-box;
+/*    background-color: rgba(39, 0, 255, 0.74);*/
+}
+.write-us__name-email--wrapper input[type=email]:focus{
+    width: 346px; /* width -padding-left = 360-14 =346*/
+/*    padding: 12px 0 12px 14px;*/
+    padding: 12px 0;
+    padding-left: 14px;
+    border-color: #000;
+    box-sizing: border-box;
+/*    background-color: rgba(39, 0, 255, 0.74);*/
+}
+
 
 
 .write-us__right {
