@@ -598,14 +598,17 @@ div.line-after{
 .sponsors__list{
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 40px 0;
     padding: 0;
     list-style: none;
-    flex-basis: 1149px;
-
+    justify-content: space-between;
 }
 .sponsors__list-item{
     flex-basis: 209px;
+}
+
+li.sponsors__list-item {
+    margin: 0 30px;
 }
 
 .sponsors__htmlacademy img{
