@@ -585,78 +585,93 @@ div.line-after{
 /*Блок студии со спонсорами*/
 
 .studio-block__sponsors{
+/*
     margin-top: 46px;
     margin-bottom: 42px;
+*/
 }
 
 .sponsors__wrapper{
-    padding-left: 51px;
+/*    padding-left: 51px;*/
 
 }
 .sponsors__list{
+    display: flex;
+    flex-wrap: wrap;
     margin: 0;
     padding: 0;
     list-style: none;
+    flex-basis: 1160px;
 }
 .sponsors__list-item{
-    display: inline-block;
+    flex-basis: 260px;
 }
 
 .sponsors__htmlacademy img{
-    padding-right: 49px;
+/*    padding-right: 49px;*/
     opacity: 0.4;
 }
 .sponsors__htmlacademy img:hover{
-    padding-right: 49px;
+/*    padding-right: 49px;*/
     opacity: 1;
 }
 .sponsors__htmlacademy img:active{
-    padding-right: 49px;
+/*    padding-right: 49px;*/
     opacity: 0.1;
 }
 
 .sponsors__barbershop img{
-    padding-left: 45px;
-    padding-right: 45px;
+/*    padding-left: 45px;*/
+/*    padding-right: 45px;*/
     opacity: 0.4;
 }
 .sponsors__barbershop img:hover{
+/*
     padding-left: 45px;
     padding-right: 45px;
+*/
     opacity: 1;
 }
 .sponsors__barbershop img:active{
+/*
     padding-left: 45px;
     padding-right: 45px;
+*/
     opacity: 0.1;
 }
 
 .sponsors__pink img{
+/*
     padding-left: 57px;
     padding-right: 56px;
+*/
     opacity: 0.4;
 }
 .sponsors__pink img:hover{
+/*
     padding-left: 57px;
     padding-right: 56px;
+*/
     opacity: 1;
 }
 .sponsors__pink img:active{
+/*
     padding-left: 57px;
     padding-right: 56px;
+*/
     opacity: 0.1;
 }
 
 .sponsors__mishka img{
-    padding-left: 64px;
+/*    padding-left: 64px;*/
     opacity: 0.4;
 }
 .sponsors__mishka img:hover{
-    padding-left: 64px;
+/*    padding-left: 64px;*/
     opacity: 1;
 }
 .sponsors__mishka img:active{
-    padding-left: 64px;
+/*    padding-left: 64px;*/
     opacity: 0.1;
 }
 
