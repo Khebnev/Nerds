@@ -601,10 +601,11 @@ div.line-after{
     margin: 0;
     padding: 0;
     list-style: none;
-    flex-basis: 1160px;
+    flex-basis: 1149px;
+
 }
 .sponsors__list-item{
-    flex-basis: 260px;
+    flex-basis: 209px;
 }
 
 .sponsors__htmlacademy img{
