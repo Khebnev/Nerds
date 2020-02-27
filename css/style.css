@@ -2,6 +2,18 @@ html, body{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+@font-face {
+
+font-family: Agency FB;
+
+src: url(font/agencyfb.ttf);
+
+font-style:normal;
+
 }
 
 header{
@@ -221,14 +233,19 @@ footer{}
     line-height: 55px;
 }
 .slider-text__container{
-        padding-top: 28px;
-        padding-bottom: 42px;
-
+    padding-top: 28px;
+    padding-bottom: 42px;
 }
-.slider-1_text p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 55px;
-    line-height: 55px;
+.slider-text__container p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: agency-fb, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
 
 }
 
@@ -242,6 +259,12 @@ footer{}
 
     display: block;
     border-radius: 2px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 500px;
+    color: #fff;
 }
 .button-slider__container a:hover{
     width: 240px;
@@ -310,10 +333,34 @@ a.button-slider:active{
 .advantages-list-item{
     width: 300px;
 }
+.advantages-list-item h3{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 30px;
+    margin-top: 26px;
+    margin-bottom: 20px;
+        text-transform: uppercase;
+}
+.advantages-list-item p{
+    display: block;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    margin-bottom: 34px;
+    font-family: agency-fb, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
 .web-sites{
     padding-left: 20px;
 }
+/*
 .web-sites__title-block h3{
+    display: block;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -324,7 +371,9 @@ a.button-slider:active{
     padding-bottom: 19px;
     text-transform: uppercase;
 }
+*/
 
+/*
 .web-sites__text p{
     display: block;
     margin: 0;
@@ -335,6 +384,7 @@ a.button-slider:active{
 
     padding-bottom: 34px;
 }
+*/
 
 .advantages-list-item__wrapper-button{
     width: 160px;
@@ -349,6 +399,8 @@ a.button-slider:active{
     text-align: center;
 
     display: block;
+    line-height: 18px;
+    font-weight: 500;
 }
 .button-red{
     background-color: #fb565a;
@@ -509,7 +561,7 @@ div.line-after{
 /*Блок студии*/
 
 .studio-block{
-    padding-top: 40px;
+    margin-top: 40px;
 }
 .studio-block__top-wrapper{
     margin-bottom: 78px;
@@ -524,16 +576,29 @@ div.line-after{
     padding-top: 40px;
 }
 .studio-block__about-us b{
+    display: block;
     font-size: 45px;
-    font-family: 'Roboto', sans-serif;
     line-height: 45px;
-
+    font-weight: 500;
 }
-.studio-block__about-text{
-    margin-top: 38px;
+.studio-block__about-us p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 32px;
+    margin-bottom: 44px;
+    font-family: agency-fb, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
 }
-.about-orders{
-    margin-bottom: 36px;
+.studio-block__about-orders h3{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    line-height: 24px;
 }
 
 .about-orders__list{
@@ -541,13 +606,15 @@ div.line-after{
     padding: 0;
     list-style: none;
 }
-.about-orders__list-items{
-
-    padding-left: 20px;
-
-    line-height: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+.about-orders__list li{
+    padding-left: 37px;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.about-orders__list li:last-child{
+    padding-left: 37px;
+    line-height: 24px;
+    margin-bottom: 75px;
 }
 
 .studio-block__accuracy{
@@ -556,7 +623,7 @@ div.line-after{
     padding-right: 20px;
     margin-top: 10px;
 }
-.accuracy__images-block{
+.studio-block__accuracy img{
     margin-bottom: 45px;
 }
 
@@ -574,27 +641,32 @@ div.line-after{
     width: 110px;
     display: inline-block;
 }
-.percents{
-    font-family: 'Roboto', sans-serif;
-    font-size: 45px;
+.accuracy-text__block b{
+    display: block;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
 }
-.accuracy-text__block-desc{
-    margin-top: 26px;
+.percents{
+    font-size: 45px;
+    line-height: 10.06px;
+    font-weight: 400;
+}
+.accuracy-text__block p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+
+    font-family: agency-fb, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #283136;
 }
 
 /*Блок студии со спонсорами*/
 
-.studio-block__sponsors{
-/*
-    margin-top: 46px;
-    margin-bottom: 42px;
-*/
-}
 
-.sponsors__wrapper{
-/*    padding-left: 51px;*/
-
-}
 .sponsors__list{
     display: flex;
     flex-wrap: wrap;
@@ -612,70 +684,45 @@ li.sponsors__list-item {
 }
 
 .sponsors__htmlacademy img{
-/*    padding-right: 49px;*/
     opacity: 0.4;
 }
 .sponsors__htmlacademy img:hover{
-/*    padding-right: 49px;*/
     opacity: 1;
 }
 .sponsors__htmlacademy img:active{
-/*    padding-right: 49px;*/
     opacity: 0.1;
 }
 
 .sponsors__barbershop img{
-/*    padding-left: 45px;*/
-/*    padding-right: 45px;*/
     opacity: 0.4;
 }
 .sponsors__barbershop img:hover{
-/*
-    padding-left: 45px;
-    padding-right: 45px;
-*/
     opacity: 1;
 }
 .sponsors__barbershop img:active{
-/*
-    padding-left: 45px;
-    padding-right: 45px;
-*/
     opacity: 0.1;
 }
 
 .sponsors__pink img{
-/*
-    padding-left: 57px;
-    padding-right: 56px;
-*/
     opacity: 0.4;
 }
 .sponsors__pink img:hover{
-/*
-    padding-left: 57px;
-    padding-right: 56px;
-*/
+
     opacity: 1;
 }
 .sponsors__pink img:active{
-/*
-    padding-left: 57px;
-    padding-right: 56px;
-*/
+
     opacity: 0.1;
 }
 
 .sponsors__mishka img{
-/*    padding-left: 64px;*/
     opacity: 0.4;
 }
 .sponsors__mishka img:hover{
-/*    padding-left: 64px;*/
     opacity: 1;
 }
 .sponsors__mishka img:active{
-/*    padding-left: 64px;*/
+
     opacity: 0.1;
 }
 
@@ -718,16 +765,17 @@ li.sponsors__list-item {
     margin-top: 26px;
 
     line-height: 30px;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 .section-map__wrapper p{
     margin: 0;
     padding: 0;
     margin-top: 24px;
-    color: #666666;
+
+    font-family: agency-fb, sans-serif;
     line-height: 18px;
     font-size: 16px;
+    color: #666666;
 }
 .section-map__wrapper a{
     width: 220px;
@@ -745,6 +793,7 @@ li.sponsors__list-item {
     line-height: 18px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
+    font-weight: 500;
     color: #fff;
     background-color: #fb565a;
 
@@ -872,19 +921,20 @@ li.sponsors__list-item {
 
 }
 
-.discount__title{
+.discount-wrapper b{
     display: block;
     padding: 0;
     margin: 0;
     line-height: 36px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+
     padding-bottom: 12px;
 }
-.discount__text{
+.discount-wrapper p{
+    display: block;
     padding: 0;
     margin: 0;
     color: #444444;
+    font-family: agency-fb, sans-serif;
     line-height: 22px;
     font-size: 16px;
 }
@@ -927,8 +977,8 @@ li.sponsors__list-item {
     margin-top: 66px;
 
     line-height: 45px;
-    font-family: 'Roboto', sans-serif;
     font-size: 45px;
+    font-weight: 500;
 }
 .write-us__form{
 
@@ -963,7 +1013,6 @@ li.sponsors__list-item {
     padding-bottom: 12px;
 
     line-height: 16px;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 .write-us__name-email--wrapper input[type=text]{
@@ -1046,7 +1095,7 @@ li.sponsors__list-item {
 
 .write-us__main-wrapper .send {
     line-height: 16px;
-    font-family: 'Roboto', sans-serif;
+
     font-size: 18px;
 
     width: 260px;
